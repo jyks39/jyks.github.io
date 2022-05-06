@@ -1,0 +1,107 @@
+body {
+    background: url(pics/fon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(250, 249, 249);
+}
+h1{
+    text-align: center;
+    font-family: "Veles-Regular.0.9.2";
+    font-size: 48pt;
+}
+h2{
+    text-align: center;
+    font-family: "Veles-Regular.0.9.2";
+    font-size: 36pt;
+    padding-top: 75px;
+}
+h3{
+    text-align: center;
+    font-family: "Veles-Regular.0.9.2";
+    font-size: 36pt;
+}
+h4{
+    text-align: center;
+    font-family: "Veles-Regular.0.9.2";
+    font-size: 36pt;
+}
+hr{
+    width: 700px;
+}
+.bio{
+    width: 1750px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(234, 249, 206);
+    opacity: .65;
+    border: 4px;
+    border-radius: 15px;
+    padding: 0px 15px;
+    transition: 0.4s;
+}
+.bio:hover{
+    opacity: 1;
+    transform: scale(1.069);
+}
+.pics{
+    width: 1800px;
+    height: 800px;
+    display: flex;
+    margin: auto;
+}
+.forma-pics{
+    width: 550px;
+    margin: auto;
+    transition: 0.5s;
+    border: 4px;
+    border-radius: 15px;
+}
+.forma-pics:hover{
+    transform: scale(1.2);
+}
+.video{
+    width: 800px;
+    margin: auto;
+}
+.forma-vid{
+    width: 800px;
+    border: 3px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.forma-vid:hover{
+    transform: scale(1.25);
+}
+p{
+    color: rgb(22, 59, 25);
+    font-family: "Uncut-Sans-MediumOblique";
+    font-size: 16pt;
+}
+a.main_link{
+    position: absolute;
+    bottom: 865px;
+    margin: 15px 0px 0px 25px;
+    text-decoration: none;
+    font-family: "Veles-Regular.0.9.2";
+    font-size: 32pt;
+    color: rgb(22, 59, 25);
+    transition: 0.4s;
+    text-align: center;
+}
+a.main_link:hover{
+    text-shadow: 2px -4px 5px rgb(6, 95, 6);
+    color: rgb(29, 170, 47);
+}
+@font-face {
+    font-family: "Uncut-Sans-MediumOblique";  
+    src: url("fonts/Uncut-Sans-MediumOblique.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Veles-Regular.0.9.2";  
+    src: url("fonts/Veles-Regular.0.9.2.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }    
